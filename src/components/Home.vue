@@ -1,0 +1,38 @@
+<template lang="html">
+  <div id="text">
+    <img src="manojnaidu.png" alt="Manoj Naidu"/>
+    <div class="description">
+      <h1>Hi, I am Manoj Naidu</h1>
+    </div>
+    <div class="social_links">
+      <a href="https://github.com/manojnaidu619" target="_blank"><img id="github" src="https://img.icons8.com/windows/48/000000/github.png"></a>
+      <a href="https://rubygems.org/profiles/manojnaidu619" target="_blank"><img id="rubygems" src="https://img.icons8.com/ios-filled/50/000000/ruby-programming-language.png"></a>
+      <a href="mailto:manonaidu619@gmail.com?Subject=Hello!" target="_top"><img id="email" src="https://img.icons8.com/metro/48/000000/email.png"></a>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+}
+</script>
+
+<style lang="css" scoped>
+ #text{
+   color: white;
+ }
+ img{
+   margin-top: 50px;
+   width: 225px;
+   height: 225px;
+ }
+ .description{
+   margin-top: 20px;
+ }
+ #facebook,#github,#rubygems,#email{
+   height:40px;
+   width:40px;
+   margin-right: 30px;
+ }
+
+</style>
