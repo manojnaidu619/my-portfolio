@@ -2,7 +2,7 @@
   <div class="container">
     <h2 id="gfont">My Projects</h2>
     <div class="row cards justify-content-around">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 20rem;">
         <img class="card-img-top" src="Task-organizer.png" alt="Task-Organizer(Vue.js + Rails)">
         <div class="card-body">
           <p id="badges">
@@ -10,8 +10,9 @@
             <span class="badge badge-warning">#RailsAPI</span>
             <span class="badge badge-info">#Vue.js</span>
             <span class="badge badge-primary">#JSON</span>
+            <span class="badge badge-dark">#CRUD</span>
           </p>
-          <h5 class="card-title">TASKY</h5>
+          <h5 class="card-title">TASKY</h5><hr>
           <h6 class="card-title">(Task-Organizer App)</h6>
           <p class="card-text">Vue.js + Rails, makes Managing Tasks and To-Do's much more cushier.</p>
           <div class="row justify-content-around links">
@@ -20,7 +21,7 @@
           </div>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 20rem;">
         <img class="card-img-top" src="logging-good.png" alt="Logging-good(Ruby gem)">
         <div class="card-body">
           <p id="badges">
@@ -29,7 +30,7 @@
             <span class="badge badge-light">#RSpec</span>
             <span class="badge badge-info">#TravisCI</span>
           </p>
-          <h5 class="card-title">lOGGING-GOOD</h5>
+          <h5 class="card-title">lOGGING-GOOD</h5><hr>
           <h6>(A friendly Ruby gem)</h6>
           <p class="card-text">Gem to make Rails logging more intuitive by presenting essential data in a tabular form.</p>
           <div class="row justify-content-around links">
@@ -38,7 +39,7 @@
           </div>
         </div>
       </div>
-      <div class="card"  style="width: 18rem;">
+      <div class="card"  style="width: 20rem;">
         <img class="card-img-top" src="milestone.png" alt="Milestone(Event management Site)">
         <div class="card-body">
           <p id="badges">
@@ -48,7 +49,7 @@
             <span class="badge badge-warning">#ActiveStorage</span>
             <span class="badge badge-primary">#JSON</span>
           </p>
-          <h5 class="card-title">MILESTONE</h5>
+          <h5 class="card-title">MILESTONE</h5><hr>
           <h6>(Event Management Site)</h6>
           <p class="card-text">A full-fledged Ruby on Rails app for managing university events and student registrations.</p>
           <div class="row justify-content-around links">
@@ -57,7 +58,7 @@
           </div>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 20rem;">
         <img class="card-img-top" src="quote-world.png" alt="Quote-world(Vue.js)">
         <div class="card-body">
           <p id="badges">
@@ -65,7 +66,7 @@
             <span class="badge badge-light">#BS4</span>
             <span class="badge badge-dark">#SPA</span>
           </p>
-          <h5 class="card-title">QUOTE-WORLD</h5>
+          <h5 class="card-title">QUOTE-WORLD</h5><hr>
           <h6 class="card-title">(SPA for Quotes listing)</h6>
           <p class="card-text">Vue.js based single page application(SPA) for creating Quotes with progress bar.</p>
           <div class="row justify-content-around links">
@@ -74,7 +75,7 @@
           </div>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 20rem;">
         <img class="card-img-top" src="google-assistant.jpg" alt="Task-Organizer(Vue.js + Rails)">
         <div class="card-body">
           <p id="badges">
@@ -83,7 +84,7 @@
             <span class="badge badge-light">#Dialogflow</span>
             <span class="badge badge-warning">#Firebase-serverless</span>
           </p>
-          <h5 class="card-title">PICKUP MASTER</h5>
+          <h5 class="card-title">PICKUP MASTER</h5><hr>
           <h6 class="card-title">(A Google Assistant action)</h6>
           <p class="card-text">A voice invoked google action voice built with Dialogflow API + Firebase Cloud functions.</p>
           <div class="row justify-content-around links">
@@ -91,7 +92,7 @@
           </div>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 20rem;">
         <img class="card-img-top" src="Readit.png" alt="Readit(Rails app)">
         <div class="card-body">
           <p id="badges">
@@ -101,7 +102,7 @@
             <span class="badge badge-dark">#Commentable</span>
             <span class="badge badge-primary">#Devise</span>
           </p>
-          <h5 class="card-title">READIT</h5>
+          <h5 class="card-title">READIT</h5><hr>
           <h6>(App for sharing readable links)</h6>
           <p class="card-text">Rails app for sharing legible links, with like and dislike feature being supported.</p>
           <div class="row justify-content-around links">
@@ -110,7 +111,7 @@
           </div>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 20rem;">
         <img class="card-img-top" src="Alphablog.png" alt="Alphablog(Rails app)">
         <div class="card-body">
           <p id="badges">
@@ -120,7 +121,7 @@
             <span class="badge badge-light">#gravatar</span>
             <span class="badge badge-dark">#JSON</span>
           </p>
-          <h5 class="card-title">ALPHABLOG</h5>
+          <h5 class="card-title">ALPHABLOG</h5><hr>
           <h6>(A Blog)</h6>
           <p class="card-text">Blog with CRUD operations + auto fetch profile picture with Gravatar API.</p>
           <div class="row justify-content-around links">
@@ -163,5 +164,12 @@ export default {
   }
   #badges span{
     margin-right: 5px;
+  }
+  p{
+    font-size: 18px;
+  }
+  hr{
+    height: 1px;
+    background-color: orange;
   }
 </style>

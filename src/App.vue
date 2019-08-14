@@ -2,7 +2,7 @@
   <div class="container">
 
     <!-- Navbar -->
-    <app-nav></app-nav>
+      <app-nav></app-nav>
     <!-- Navbar ends -->
 
     <div class="content container">

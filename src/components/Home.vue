@@ -23,8 +23,8 @@ export default {
  }
  img{
    margin-top: 50px;
-   width: 250px;
-   height: 250px;
+   width: 200px;
+   height: 200px;
  }
  .description{
    margin-top: 20px;
@@ -35,4 +35,22 @@ export default {
    margin-right: 30px;
  }
 
+ @media screen and (max-width: 500px) {
+   img{
+     margin-top: 60px;
+     width: 150px;
+     height: 150px;
+     /*margin-right: -35px;*/
+   }
+   h1{
+     margin-top: 30px;
+     font-size: 30px;
+   }
+   #facebook,#github,#rubygems,#email{
+     height:30px;
+     width:30px;
+     margin-right: 20px;
+     margin-top: 30px;
+   }
+}
 </style>

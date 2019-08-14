@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container fluid">
     <div class="row justify-content-md-between">
       <div class="col">
         <router-link to="/" class="link">HOME</router-link>
@@ -11,6 +11,10 @@
         <router-link to="/projects" class="link">PROJECTS</router-link>
       </div>
     </div>
+    <!--
+    <div class="bread">
+      <img src="https://img.icons8.com/ios-filled/50/000000/menu.png">
+    </div> -->
   </div>
 </template>
 
@@ -31,5 +35,23 @@ export default {
 .link:hover{
   text-decoration: none;
   border-bottom: 2px solid #FEE100;
+}
+.bread{
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  /*.row{
+    display: none;
+  }*/
+  .bread{
+    display: block;
+    float: right;
+    margin-right: -10px;
+  }
+  .bread img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
 }
 </style>
