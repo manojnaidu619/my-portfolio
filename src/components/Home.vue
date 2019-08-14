@@ -23,8 +23,8 @@ export default {
  }
  img{
    margin-top: 50px;
-   width: 225px;
-   height: 225px;
+   width: 250px;
+   height: 250px;
  }
  .description{
    margin-top: 20px;
