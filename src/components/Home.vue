@@ -5,9 +5,9 @@
       <h1>Hi, I am Manoj Naidu</h1>
     </div>
     <div class="social_links">
-      <a href="https://github.com/manojnaidu619" target="_blank"><img id="github" src="https://img.icons8.com/windows/48/000000/github.png"></a>
-      <a href="https://rubygems.org/profiles/manojnaidu619" target="_blank"><img id="rubygems" src="https://img.icons8.com/ios-filled/50/000000/ruby-programming-language.png"></a>
-      <a href="mailto:manonaidu619@gmail.com?Subject=Hello!" target="_top"><img id="email" src="https://img.icons8.com/metro/48/000000/email.png"></a>
+      <a href="https://github.com/manojnaidu619" target="_blank"><img id="github" src="https://img.icons8.com/color/48/000000/github.png"></a>
+      <a href="https://rubygems.org/profiles/manojnaidu619" target="_blank"><img id="rubygems" src="https://img.icons8.com/color/48/000000/ruby-programming-language.png"></a>
+      <a href="mailto:manonaidu619@gmail.com?Subject=Hello!" target="_top"><img id="email" src="https://img.icons8.com/color/48/000000/gmail.png"></a>
     </div>
   </div>
 </template>
@@ -22,7 +22,7 @@ export default {
    color: white;
  }
  img{
-   margin-top: 50px;
+   margin-top: 40px;
    width: 200px;
    height: 200px;
  }
@@ -34,8 +34,10 @@ export default {
    width:40px;
    margin-right: 30px;
  }
-
- @media screen and (max-width: 500px) {
+ #rubygems{
+   color:red !important;
+ }
+ @media screen and (max-width: 520px) {
    img{
      margin-top: 60px;
      width: 150px;

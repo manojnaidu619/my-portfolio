@@ -1,14 +1,17 @@
 <template>
-  <div class="container fluid">
+  <div class="container">
     <div class="row justify-content-md-between">
       <div class="col">
-        <router-link to="/" class="link">HOME</router-link>
+        <h5><router-link to="/" class="link"><img src="https://img.icons8.com/material-outlined/48/000000/home--v1.png"/></router-link></h5>
+        <h6>Home</h6>
       </div>
       <div class="col">
-        <router-link to="/about" class="link">ABOUT</router-link>
+        <h5><router-link to="/about" class="link"><img src="https://img.icons8.com/ios-filled/50/000000/education.png"></router-link></h5>
+        <h6>About</h6>
       </div>
       <div class="col">
-        <router-link to="/projects" class="link">PROJECTS</router-link>
+        <h5><router-link to="/projects" class="link"><img src="https://img.icons8.com/ios-filled/48/000000/programming.png"></router-link></h5>
+        <h6>Projects</h6>
       </div>
     </div>
     <!--
@@ -24,34 +27,26 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.link{
-  font-weight: bold;
-  font-size: 17px;
-  /*background: linear-gradient(to right,#B3FFAB, #12FFF7);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
-  color: Aqua;
-}
-.link:hover{
-  text-decoration: none;
-  border-bottom: 2px solid #FEE100;
-}
-.bread{
-  display: none;
-}
+
+ .link{
+   color: white;
+   text-decoration: none;
+ }
+ .col img{
+   height: 40px;
+   width: 40px;
+ }
+ 
 @media screen and (max-width: 500px) {
-  /*.row{
-    display: none;
-  }*/
-  .bread{
-    display: block;
-    float: right;
-    margin-right: -10px;
-  }
-  .bread img{
+  .col img{
     height: 30px;
     width: 30px;
-    cursor: pointer;
+  }
+  h6{
+    display: none;
+  }
+  .container{
+    margin-top: 20px;
   }
 }
 </style>

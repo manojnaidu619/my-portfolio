@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <h2 id="gfont">My Education</h2>
+    <h2 id="gfont">About my Education</h2>
     <div class="container">
       <div class="row justify-content-center">
         <div class="card" style="width: 25rem;">
