@@ -1,6 +1,9 @@
 <template lang="html">
   <div id="text">
-    <img src="/my-images/manojnaidu.png" alt="Manoj Naidu"/>
+    <div v-if="show == true" class="overlay">
+      <h3>Loading!!</h3>
+    </div>
+    <img src="/my-images/manojnaidu.webp" alt="Manoj Naidu"/>
     <div class="description">
       <h1>Hi, I am Manoj Naidu</h1>
     </div>
@@ -14,10 +17,23 @@
 
 <script>
 export default {
+  data(){
+    return{
+      show: false
+    }
+  },
+  beforeCreate(){
+    this.show = true
+  }
 }
 </script>
 
 <style lang="css" scoped>
+ .overlay{
+   width: 100vh;
+   height: 100vh;
+   background-color: green;
+ }
  #text{
    color: white;
  }
