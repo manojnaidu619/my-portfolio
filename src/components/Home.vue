@@ -1,8 +1,5 @@
 <template lang="html">
   <div id="text">
-    <div v-if="show == true" class="overlay">
-      <h3>Loading!!</h3>
-    </div>
     <img src="/my-images/manojnaidu.webp" alt="Manoj Naidu"/>
     <div class="description">
       <h1>Hi, I am Manoj Naidu</h1>
@@ -17,23 +14,10 @@
 
 <script>
 export default {
-  data(){
-    return{
-      show: false
-    }
-  },
-  beforeCreate(){
-    this.show = true
-  }
 }
 </script>
 
 <style lang="css" scoped>
- .overlay{
-   width: 100vh;
-   height: 100vh;
-   background-color: green;
- }
  #text{
    color: white;
  }
@@ -50,9 +34,7 @@ export default {
    width:40px;
    margin-right: 30px;
  }
- #rubygems{
-   color:red !important;
- }
+
  @media screen and (max-width: 520px) {
    img{
      margin-top: 60px;
