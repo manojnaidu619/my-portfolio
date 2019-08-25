@@ -3,12 +3,12 @@
   "short_name": "Manoj Naidu",
   "icons": [
     {
-      "src": "./img/icons/my_logo.png",
+      "src": "./img/icons/mj-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "./img/icons/my_logo.png",
+      "src": "./img/icons/mj-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
