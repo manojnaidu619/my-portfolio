@@ -2,15 +2,15 @@
   <div class="container">
     <div class="row justify-content-md-between">
       <div class="col">
-        <h5><router-link to="/" class="link"><img src="https://img.icons8.com/material-outlined/48/000000/home--v1.png"/></router-link></h5>
+        <h5><router-link to="/" class="link"><img src="https://img.icons8.com/material-outlined/48/000000/home--v1.png" alt="Home"/></router-link></h5>
         <h6>Home</h6>
       </div>
       <div class="col">
-        <h5><router-link to="/about" class="link"><img src="https://img.icons8.com/ios-filled/50/000000/education.png"></router-link></h5>
+        <h5><router-link to="/about" class="link"><img src="https://img.icons8.com/ios-filled/50/000000/education.png" alt="About"/></router-link></h5>
         <h6>About</h6>
       </div>
       <div class="col">
-        <h5><router-link to="/projects" class="link"><img src="https://img.icons8.com/ios-filled/48/000000/programming.png"></router-link></h5>
+        <h5><router-link to="/projects" class="link"><img src="https://img.icons8.com/ios-filled/48/000000/programming.png" alt="Projects"/></router-link></h5>
         <h6>Projects</h6>
       </div>
     </div>
