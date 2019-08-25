@@ -24,7 +24,8 @@
           </div>
         </div>
       </div>
-      <div class="row justify-content-center">
+
+      <!-- <div class="row justify-content-center">
         <div class="last card" style="width: 25rem;">
           <div class="card-body">
             <img src="school.png" alt="Vidhatha Global school">
@@ -34,7 +35,7 @@
             <p class="card-text">Graduated with 89.6% in class 10</p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
