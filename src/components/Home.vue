@@ -1,6 +1,6 @@
 <template lang="html">
   <div id="text">
-    <img src="manojnaidu.png" alt="Manoj Naidu"/>
+    <img src="/my-images/manojnaidu.png" alt="Manoj Naidu"/>
     <div class="description">
       <h1>Hi, I am Manoj Naidu</h1>
     </div>
@@ -29,7 +29,7 @@ export default {
  .description{
    margin-top: 20px;
  }
- #facebook,#github,#rubygems,#email{
+ #github,#rubygems,#email{
    height:40px;
    width:40px;
    margin-right: 30px;

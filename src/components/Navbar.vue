@@ -36,7 +36,13 @@ export default {
    height: 40px;
    width: 40px;
  }
- 
+ .link img{
+   transition: 0.1s linear;
+ }
+ .link img:hover{
+   transform: scale(1.2);
+ }
+
 @media screen and (max-width: 500px) {
   .col img{
     height: 30px;

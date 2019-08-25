@@ -3,7 +3,7 @@
     <h2 id="gfont">My Projects</h2>
     <div class="row cards justify-content-around">
       <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="Task-organizer.png" alt="Task-Organizer(Vue.js + Rails)">
+        <img class="card-img-top" src="/my-images/Task-organizer.png" alt="Task-Organizer(Vue.js + Rails)">
         <div class="card-body">
           <p id="badges">
             <span class="badge badge-danger">#Ruby</span>
@@ -22,7 +22,7 @@
         </div>
       </div>
       <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="logging-good.png" alt="Logging-good(Ruby gem)">
+        <img class="card-img-top" src="/my-images/logging-good.png" alt="Logging-good(Ruby gem)">
         <div class="card-body">
           <p id="badges">
             <span class="badge badge-danger">#Ruby</span>
@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="card"  style="width: 20rem;">
-        <img class="card-img-top" src="milestone.png" alt="Milestone(Event management Site)">
+        <img class="card-img-top" src="/my-images/milestone.png" alt="Milestone(Event management Site)">
         <div class="card-body">
           <p id="badges">
             <span class="badge badge-danger">#Ruby</span>
@@ -59,7 +59,7 @@
         </div>
       </div>
       <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="quote-world.png" alt="Quote-world(Vue.js)">
+        <img class="card-img-top" src="/my-images/quote-world.png" alt="Quote-world(Vue.js)">
         <div class="card-body">
           <p id="badges">
             <span class="badge badge-info">#Vue.js</span>
@@ -76,7 +76,7 @@
         </div>
       </div>
       <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="google-assistant.jpg" alt="Task-Organizer(Vue.js + Rails)">
+        <img class="card-img-top" src="/my-images/google-assistant.jpg" alt="Task-Organizer(Vue.js + Rails)">
         <div class="card-body">
           <p id="badges">
             <span class="badge badge-primary">#G-assistant</span>
@@ -93,7 +93,7 @@
         </div>
       </div>
       <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="Readit.png" alt="Readit(Rails app)">
+        <img class="card-img-top" src="/my-images/Readit.png" alt="Readit(Rails app)">
         <div class="card-body">
           <p id="badges">
             <span class="badge badge-danger">#Ruby</span>
@@ -111,8 +111,8 @@
           </div>
         </div>
       </div>
-      <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="Alphablog.png" alt="Alphablog(Rails app)">
+      <div class="last card" style="width: 20rem;">
+        <img class="card-img-top" src="/my-images/Alphablog.png" alt="Alphablog(Rails app)">
         <div class="card-body">
           <p id="badges">
             <span class="badge badge-success">#First-web-app</span>
@@ -171,5 +171,8 @@ export default {
   hr{
     height: 1px;
     background-color: orange;
+  }
+  .last{
+    margin-bottom: 50px;
   }
 </style>
