@@ -1,6 +1,6 @@
 <template lang="html">
   <div id="text">
-    <img src="/my-images/mj.png" alt="Manoj Naidu"/>
+    <img src="/my-images/mj.jpg" alt="Manoj Naidu"/>
     <div class="description">
       <h1>Hi, I am Manoj Naidu</h1>
     </div>
