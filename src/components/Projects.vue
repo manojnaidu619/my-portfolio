@@ -3,7 +3,7 @@
     <h2 id="gfont">My Projects</h2>
     <div class="row cards justify-content-around">
       <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="/my-images/Task-organizer.webp" alt="Task-Organizer(Vue.js + Rails)">
+        <img class="card-img-top" src="/my-images/Task-organizer.jpeg" alt="Task-Organizer(Vue.js + Rails)">
         <div class="card-body">
           <p id="badges">
             <span class="badge badge-danger">#Ruby</span>
@@ -22,7 +22,7 @@
         </div>
       </div>
       <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="/my-images/logging-good.webp" alt="Logging-good(Ruby gem)">
+        <img class="card-img-top" src="/my-images/logging-good.jpeg" alt="Logging-good(Ruby gem)">
         <div class="card-body">
           <p id="badges">
             <span class="badge badge-danger">#Ruby</span>
@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="card"  style="width: 20rem;">
-        <img class="card-img-top" src="/my-images/milestone.webp" alt="Milestone(Event management Site)">
+        <img class="card-img-top" src="/my-images/milestone.jpeg" alt="Milestone(Event management Site)">
         <div class="card-body">
           <p id="badges">
             <span class="badge badge-danger">#Ruby</span>
@@ -59,7 +59,7 @@
         </div>
       </div>
       <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="/my-images/quote-world.webp" alt="Quote-world(Vue.js)">
+        <img class="card-img-top" src="/my-images/quote-world.jpeg" alt="Quote-world(Vue.js)">
         <div class="card-body">
           <p id="badges">
             <span class="badge badge-info">#Vue.js</span>
@@ -76,7 +76,7 @@
         </div>
       </div>
       <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="/my-images/google-assistant.webp" alt="Task-Organizer(Vue.js + Rails)">
+        <img class="card-img-top" src="/my-images/google-assistant.jpeg" alt="Task-Organizer(Vue.js + Rails)">
         <div class="card-body">
           <p id="badges">
             <span class="badge badge-primary">#G-assistant</span>
@@ -93,7 +93,7 @@
         </div>
       </div>
       <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="/my-images/Readit.webp" alt="Readit(Rails app)">
+        <img class="card-img-top" src="/my-images/Readit.jpeg" alt="Readit(Rails app)">
         <div class="card-body">
           <p id="badges">
             <span class="badge badge-danger">#Ruby</span>
@@ -112,7 +112,7 @@
         </div>
       </div>
       <div class="last card" style="width: 20rem;">
-        <img class="card-img-top" src="/my-images/Alphablog.webp" alt="Alphablog(Rails app)">
+        <img class="card-img-top" src="/my-images/Alphablog.jpg" alt="Alphablog(Rails app)">
         <div class="card-body">
           <p id="badges">
             <span class="badge badge-success">#First-web-app</span>

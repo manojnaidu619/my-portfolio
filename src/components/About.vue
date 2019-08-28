@@ -5,7 +5,7 @@
       <div class="row justify-content-center">
         <div class="card" style="width: 25rem;">
           <div class="card-body">
-            <img src="/my-images/UG.webp" alt="Dayananda Sagar University">
+            <img src="/my-images/UG.png" alt="Dayananda Sagar University">
             <h3 class="card-title">Dayananda Sagar University</h3>
             <h5>Bangalore, India</h5>
             <h6>(2017-2021)</h6>
@@ -16,7 +16,7 @@
       <div class="row justify-content-center">
         <div class="last card" style="width: 25rem;">
           <div class="card-body">
-            <img src="/my-images/college.webp" alt="Narayana PU college">
+            <img src="/my-images/college.jpg" alt="Narayana PU college">
             <h3 class="card-title">Narayana PU College</h3>
             <h5>Bangalore, India</h5>
             <h6>(2015-2017)</h6>
