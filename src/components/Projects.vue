@@ -16,8 +16,8 @@
           <h6 class="card-title">(Task-Organizer App)</h6>
           <p class="card-text">Vue.js + Rails, makes Managing Tasks and To-Do's much more cushier.</p>
           <div class="row justify-content-around links">
-            <a href="https://github.com/manojnaidu619/task-organizer-vue-rails" target="_blank"><img src="https://img.icons8.com/material-two-tone/50/000000/github.png" alt="Github-link"></a>
-            <a href="https://tasky916.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/domain.png" alt="Web-link"></a>
+            <a href="https://github.com/manojnaidu619/task-organizer-vue-rails" target="_blank"><img src="https://img.icons8.com/color/50/000000/github.png" alt="Github-link"></a>
+            <a href="https://tasky916.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/color/50/000000/domain.png" alt="Web-link"></a>
           </div>
         </div>
       </div>
@@ -34,8 +34,8 @@
           <h6>(A friendly Ruby gem)</h6>
           <p class="card-text">Gem to make Rails logging more intuitive by presenting essential data in a tabular form.</p>
           <div class="row justify-content-around links">
-            <a href="https://github.com/manojnaidu619/logging-good" target="_blank"><img src="https://img.icons8.com/material-two-tone/50/000000/github.png" alt="Github Link"></a>
-            <a href="https://rubygems.org/gems/logging_good" target="_blank"><img src="https://img.icons8.com/wired/48/000000/ruby-gem.png" alt="Web-link"></a>
+            <a href="https://github.com/manojnaidu619/logging-good" target="_blank"><img src="https://img.icons8.com/color/50/000000/github.png" alt="Github-link"></a>
+            <a target="_blank" href="https://rubygems.org/gems/logging_good"><img src="https://img.icons8.com/color/50/000000/domain.png" alt="Web-link"></a>
           </div>
         </div>
       </div>
@@ -53,8 +53,8 @@
           <h6>(Event Management Site)</h6>
           <p class="card-text">A full-fledged Ruby on Rails app for managing university events and student registrations.</p>
           <div class="row justify-content-around links">
-            <a href="https://github.com/manojnaidu619/milestone" target="_blank"><img src="https://img.icons8.com/material-two-tone/50/000000/github.png" alt="Github Link"></a>
-            <a href="https://milestone619.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/domain.png" alt="Web-link"></a>
+            <a href="https://github.com/manojnaidu619/milestone" target="_blank"><img src="https://img.icons8.com/color/50/000000/github.png" alt="Github-link"></a>
+            <a href="https://milestone619.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/color/50/000000/domain.png" alt="Web-link"></a>
           </div>
         </div>
       </div>
@@ -70,8 +70,8 @@
           <h6 class="card-title">(SPA for Quotes listing)</h6>
           <p class="card-text">Vue.js based single page application(SPA) for creating Quotes with progress bar.</p>
           <div class="row justify-content-around links">
-            <a href="https://github.com/manojnaidu619/Quote-world" target="_blank"><img src="https://img.icons8.com/material-two-tone/50/000000/github.png" alt="Github Link"></a>
-            <a href="http://quoteworld619.surge.sh/" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/domain.png" alt="Web-link"></a>
+            <a href="https://github.com/manojnaidu619/Quote-world" target="_blank"><img src="https://img.icons8.com/color/50/000000/github.png" alt="Github-link"></a>
+            <a href="http://quoteworld619.surge.sh/" target="_blank"><img src="https://img.icons8.com/color/50/000000/domain.png" alt="Web-link"></a>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@
           <h6 class="card-title">(A Google Assistant action)</h6>
           <p class="card-text">A voice invoked google action voice built with Dialogflow API + Firebase Cloud functions.</p>
           <div class="row justify-content-around links">
-            <a href="https://assistant.google.com/services/a/uid/00000081366fbad1" target="_blank"><img src="https://img.icons8.com/material-two-tone/48/000000/google-logo.png" alt="Web-link"></a>
+            <a target="_blank" href="https://assistant.google.com/services/a/uid/00000081366fbad1"><img src="https://img.icons8.com/color/50/000000/domain.png" alt="Web-link"></a>
           </div>
         </div>
       </div>
@@ -106,8 +106,8 @@
           <h6>(App for sharing readable links)</h6>
           <p class="card-text">Rails app for sharing legible links, with like and dislike feature being supported.</p>
           <div class="row justify-content-around links">
-            <a href="https://github.com/manojnaidu619/Read-It" target="_blank"><img src="https://img.icons8.com/material-two-tone/50/000000/github.png" alt="Github Link"></a>
-            <a href="https://readit619.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/domain.png" alt="Web-link"></a>
+            <a href="https://github.com/manojnaidu619/Read-It" target="_blank"><img src="https://img.icons8.com/color/50/000000/github.png" alt="Github-link"></a>
+            <a href="https://readit619.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/color/50/000000/domain.png" alt="Web-link"></a>
           </div>
         </div>
       </div>
@@ -125,8 +125,8 @@
           <h6>(A Blog)</h6>
           <p class="card-text">Blog with CRUD operations + auto fetch profile picture with Gravatar API.</p>
           <div class="row justify-content-around links">
-            <a href="https://github.com/manojnaidu619/Alpha_blog" target="_blank"><img src="https://img.icons8.com/material-two-tone/50/000000/github.png" alt="Github Link"></a>
-            <a href="https://alphablog619.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/domain.png" alt="Web-link"></a>
+            <a href="https://github.com/manojnaidu619/Alpha_blog" target="_blank"><img src="https://img.icons8.com/color/50/000000/github.png" alt="Github-link"></a>
+            <a href="https://alphablog619.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/color/50/000000/domain.png" alt="Web-link"></a>
           </div>
         </div>
       </div>
@@ -152,6 +152,10 @@ export default {
   .card{
     background-color: #DCDCDC;
     margin-bottom: 20px;
+    transition: 0.2s linear;
+  }
+  .card:hover{
+    box-shadow: 6px 4px 6px #473d3b;
   }
   .links a{
     margin-bottom: 10px;

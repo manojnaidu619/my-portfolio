@@ -16,7 +16,7 @@
       <div class="row justify-content-center">
         <div class="last card" style="width: 25rem;">
           <div class="card-body">
-            <img src="/my-images/college.jpg" alt="Narayana PU college">
+            <img id="ug" src="/my-images/college.jpg" alt="Narayana PU college">
             <h3 class="card-title">Narayana PU College</h3>
             <h5>Bangalore, India</h5>
             <h6>(2015-2017)</h6>
@@ -48,6 +48,9 @@ export default {
 </script>
 
 <style scoped>
+  #ug{
+    border-radius: 25px;
+  }
   #gfont{
     font-family: 'Lobster', regular;
   }

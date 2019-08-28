@@ -5,7 +5,7 @@
       <h1>Hi, I am Manoj Naidu</h1>
     </div>
     <div class="social_links">
-      <a href="https://github.com/manojnaidu619" target="_blank"><img id="github" src="https://img.icons8.com/color/48/000000/github.png" alt="Github"></a>
+      <a href="https://github.com/manojnaidu619" target="_blank"><img id="github" src="https://img.icons8.com/material/24/000000/github.png" alt="Github"></a>
       <a href="https://rubygems.org/profiles/manojnaidu619" target="_blank"><img id="rubygems" src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" alt="Rubygems"></a>
       <a href="mailto:manonaidu619@gmail.com?Subject=Hello!" target="_top"><img id="email" src="https://img.icons8.com/color/48/000000/gmail.png" alt="Gmail"></a>
     </div>
@@ -25,6 +25,7 @@ export default {
    margin-top: 40px;
    width: 200px;
    height: 200px;
+   border-radius: 125px;
  }
  .description{
    margin-top: 20px;
