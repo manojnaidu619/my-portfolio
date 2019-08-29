@@ -55,7 +55,7 @@ export default {
     font-family: 'Lobster', regular;
   }
   .card{
-    background-color: Lightgray;
+    background-color: Lavender;
   }
   .row{
     margin-top: 20px;

@@ -150,7 +150,7 @@ export default {
     margin-top: 50px;
   }
   .card{
-    background-color: #DCDCDC;
+    background-color: lavender;
     margin-bottom: 20px;
     transition: 0.2s linear;
   }
