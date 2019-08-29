@@ -21,6 +21,9 @@ export default {
  #text{
    color: white;
  }
+ h1{
+   color: black;
+ }
  img{
    margin-top: 40px;
    width: 200px;
