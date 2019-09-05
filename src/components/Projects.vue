@@ -1,8 +1,8 @@
 <template lang="html">
-  <div class="container">
-    <h2 id="gfont">My Projects</h2>
+  <div class="container animated fadeIn">
+    <h2 class="animated fadeInDown">My Projects</h2>
     <div class="row cards justify-content-around">
-      <div class="card" style="width: 20rem;">
+      <div class="card animated fadeIn" style="width: 20rem;">
         <img class="card-img-top" src="/my-images/Task-organizer.jpeg" alt="Task-Organizer(Vue.js + Rails)">
         <div class="card-body">
           <p id="badges">
@@ -21,7 +21,7 @@
           </div>
         </div>
       </div>
-      <div class="card" style="width: 20rem;">
+      <div class="card animated fadeIn" style="width: 20rem;">
         <img class="card-img-top" src="/my-images/logging-good.jpeg" alt="Logging-good(Ruby gem)">
         <div class="card-body">
           <p id="badges">
@@ -39,7 +39,7 @@
           </div>
         </div>
       </div>
-      <div class="card"  style="width: 20rem;">
+      <div class="card animated fadeIn"  style="width: 20rem;">
         <img class="card-img-top" src="/my-images/milestone.jpeg" alt="Milestone(Event management Site)">
         <div class="card-body">
           <p id="badges">
@@ -58,7 +58,7 @@
           </div>
         </div>
       </div>
-      <div class="card" style="width: 20rem;">
+      <div class="card animated fadeIn" style="width: 20rem;">
         <img class="card-img-top" src="/my-images/quote-world.jpeg" alt="Quote-world(Vue.js)">
         <div class="card-body">
           <p id="badges">
@@ -75,7 +75,7 @@
           </div>
         </div>
       </div>
-      <div class="card" style="width: 20rem;">
+      <div class="card animated fadeIn" style="width: 20rem;">
         <img class="card-img-top" src="/my-images/google-assistant.jpeg" alt="Task-Organizer(Vue.js + Rails)">
         <div class="card-body">
           <p id="badges">
@@ -92,7 +92,7 @@
           </div>
         </div>
       </div>
-      <div class="card" style="width: 20rem;">
+      <div class="card animated fadeIn" style="width: 20rem;">
         <img class="card-img-top" src="/my-images/Readit.jpeg" alt="Readit(Rails app)">
         <div class="card-body">
           <p id="badges">
@@ -111,7 +111,7 @@
           </div>
         </div>
       </div>
-      <div class="last card" style="width: 20rem;">
+      <div class="last card animated fadeIn" style="width: 20rem;">
         <img class="card-img-top" src="/my-images/Alphablog.jpg" alt="Alphablog(Rails app)">
         <div class="card-body">
           <p id="badges">
@@ -136,26 +136,25 @@
 
 <script>
 export default {
+
 }
 </script>
 
 <style lang="css" scoped>
-  h5{
+  h5,h2{
     font-weight: bolder;
-  }
-  #gfont{
-    font-family: 'Lobster', regular;
   }
   .cards{
     margin-top: 50px;
   }
   .card{
-    background-color: lavender;
+    background-color: LightCyan;
     margin-bottom: 20px;
+    border: 1.5px solid LightSkyBlue ;
     transition: 0.2s linear;
   }
   .card:hover{
-    box-shadow: 6px 4px 6px #473d3b;
+    box-shadow: 4px 4px 15px #473d3b;
   }
   .links a{
     margin-bottom: 10px;

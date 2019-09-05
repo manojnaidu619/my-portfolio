@@ -1,13 +1,13 @@
 <template lang="html">
-  <div id="text">
-    <img src="/my-images/mj.jpg" alt="Manoj Naidu"/>
+  <div id="text" class="animated fadeIn">
+    <img class="animated fadeIn" src="/my-images/mj.jpg" alt="Manoj Naidu"/>
     <div class="description">
-      <h1>Hi, I am Manoj Naidu</h1>
+      <h1 class="animated slideInUp">Hi, I am Manoj Naidu</h1>
     </div>
     <div class="social_links">
-      <a href="https://github.com/manojnaidu619" target="_blank"><img id="github" src="https://img.icons8.com/material/48/000000/github.png" alt="Github"></a>
+      <a href="https://github.com/manojnaidu619" target="_blank"><img class="animated fadeInLeft" id="github" src="https://img.icons8.com/material/48/000000/github.png" alt="Github"></a>
       <a href="https://rubygems.org/profiles/manojnaidu619" target="_blank"><img id="rubygems" src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" alt="Rubygems"></a>
-      <a href="mailto:manonaidu619@gmail.com?Subject=Hello!" target="_top"><img id="email" src="https://img.icons8.com/color/48/000000/gmail.png" alt="Gmail"></a>
+      <a href="mailto:manojnaidu619@gmail.com?Subject=Hello!" target="_top"><img class="animated fadeInRight" id="email" src="https://img.icons8.com/color/48/000000/gmail.png" alt="Gmail"></a>
     </div>
   </div>
 </template>
