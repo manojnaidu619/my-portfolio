@@ -1,14 +1,15 @@
 <template lang="html">
     <div class="container animated fadeIn">
       <div class="row justify-content-center">
-        <h2 class="animated fadeInUp">Just a simple Dude who's into exploring new stuff always!! 😎</h2>
+        <h2 class="animated fadeInUp">Just a simple Dude who's into exploring new stuff always!! <span class="emoji">😎</span></h2>
         <ul style="margin-top:40px;">
-          <li><h4 class="animated fadeInUp delay-1s">I'm a passionate Web developer</h4></li>
+          <li><h4 class="animated fadeInUp delay-1s">I'm a passionate Web Developer</h4></li>
           <li><h4 class="animated fadeInUp delay-2s">Also a Gadget-holic</h4></li>
-          <li style="margin-top:50px;"><h4 class="animated fadeInUp delay-3s">Languages I love to play with...</h4></li>
+          <li><h4 class="animated fadeInUp delay-2s"></h4></li>
+          <li style="margin-top:50px;"><h4 class="animated fadeInUp delay-3s">Languages I like to play with...</h4></li>
           <li>
             <div class="languages animated zoomIn delay-4s">
-              <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png">
+              <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt="C++">
               <img src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" alt="Ruby">
               <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python">
             </div>
@@ -33,6 +34,9 @@ export default {
     padding:0;
     margin:0;
   }
+  li{
+    margin-bottom: 20px;
+  }
   body{
     text-color: black;
   }
@@ -45,6 +49,9 @@ export default {
     }
     h4{
       font-size: 20px;
+    }
+    .languages img, .emoji{
+      transform: scale(0.8);
     }
   }
 </style>

@@ -7,11 +7,7 @@
     <div class="social_links">
       <a href="https://github.com/manojnaidu619" target="_blank"><img class="animated fadeInLeft" id="github" src="https://img.icons8.com/material/48/000000/github.png" alt="Github"></a>
       <a href="https://rubygems.org/profiles/manojnaidu619" target="_blank"><img id="rubygems" src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" alt="Rubygems"></a>
-<<<<<<< HEAD
       <a href="mailto:manojnaidu619@gmail.com?Subject=Hello!" target="_top"><img class="animated fadeInRight" id="email" src="https://img.icons8.com/color/48/000000/gmail.png" alt="Gmail"></a>
-=======
-      <a href="mailto:manojnaidu619@gmail.com?Subject=Hello!" target="_top"><img id="email" src="https://img.icons8.com/color/48/000000/gmail.png" alt="Gmail"></a>
->>>>>>> d4ab74f06da4dd22495d08df74d72cd199f42e41
     </div>
   </div>
 </template>
