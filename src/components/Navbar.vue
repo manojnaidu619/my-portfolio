@@ -2,15 +2,15 @@
   <div class="container animated fadeIn">
     <div class="row justify-content-md-between">
       <div class="col">
-        <h5><router-link to="/" class="link"><img class="animated slideInDown" src="https://img.icons8.com/cute-clipart/50/000000/home-page.png" alt="Home"></router-link></h5>
+        <h5><router-link to="/" class="link"><img class="animated slideInDown" src="/img/logos/home.png" alt="Home"></router-link></h5>
         <h6 class="animated slideInUp">Home</h6>
       </div>
       <div class="col">
-        <h5><router-link to="/about" class="link"><img class="animated slideInDown" src="https://img.icons8.com/doodle/50/000000/user.png" alt="About"></router-link></h5>
+        <h5><router-link to="/about" class="link"><img class="animated slideInDown" src="/img/logos/about.png" alt="About"></router-link></h5>
         <h6 class="animated slideInUp">About</h6>
       </div>
       <div class="col">
-        <h5><router-link to="/projects" class="link"><img class="animated slideInDown" src="https://img.icons8.com/dusk/50/000000/code.png" alt="Projects"></router-link></h5>
+        <h5><router-link to="/projects" class="link"><img class="animated slideInDown" src="/img/logos/code.png" alt="Projects"></router-link></h5>
         <h6 class="animated slideInUp">Projects</h6>
       </div>
     </div>

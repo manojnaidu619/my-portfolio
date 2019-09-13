@@ -5,9 +5,9 @@
       <h1 class="animated slideInUp">Hi, I am Manoj Naidu</h1>
     </div>
     <div class="social_links">
-      <a href="https://github.com/manojnaidu619" target="_blank"><img class="animated fadeInLeft" id="github" src="https://img.icons8.com/material/48/000000/github.png" alt="Github"></a>
-      <a href="https://rubygems.org/profiles/manojnaidu619" target="_blank"><img id="rubygems" src="https://img.icons8.com/color/48/000000/ruby-programming-language.png" alt="Rubygems"></a>
-      <a href="mailto:manojnaidu619@gmail.com?Subject=Hello!" target="_top"><img class="animated fadeInRight" id="email" src="https://img.icons8.com/color/48/000000/gmail.png" alt="Gmail"></a>
+      <a href="https://github.com/manojnaidu619" target="_blank"><img class="animated fadeInLeft" id="github" src="/img/logos/github-home.png" alt="Github"></a>
+      <a href="https://rubygems.org/profiles/manojnaidu619" target="_blank"><img id="rubygems" src="/img/logos/ruby.png" alt="Rubygems"></a>
+      <a href="mailto:manojnaidu619@gmail.com?Subject=Hello!" target="_top"><img class="animated fadeInRight" id="email" src="/img/logos/gmail.png" alt="Gmail"></a>
     </div>
   </div>
 </template>
@@ -34,8 +34,8 @@ export default {
    margin-top: 20px;
  }
  #github,#rubygems,#email{
-   height:40px;
-   width:40px;
+   height:35px;
+   width:35px;
    margin-right: 30px;
  }
 
@@ -50,7 +50,7 @@ export default {
      margin-top: 30px;
      font-size: 30px;
    }
-   #facebook,#github,#rubygems,#email{
+   #github,#rubygems,#email{
      height:30px;
      width:30px;
      margin-right: 20px;
