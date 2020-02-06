@@ -49,13 +49,13 @@ export default {
     width: 20%;
     padding: 8px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     background-color: lavenderblush;
     border-radius: 5px;
-    border: 1px solid mediumslateblue;
-    color: blueviolet;
+    border: 1px solid #4c4c4c;
+    color: #4c4c4c;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     cursor: pointer;
     outline: none;
     text-decoration: none;
@@ -65,6 +65,7 @@ export default {
 
   #resume-btn:hover{
     background-color: #f0fffa;
+    letter-spacing: 4px;
   }
 
  @media screen and (max-width: 520px) {
