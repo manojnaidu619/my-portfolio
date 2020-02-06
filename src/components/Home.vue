@@ -4,6 +4,9 @@
     <div class="description">
       <h1 class="animated slideInUp">Hi, I am Manoj Naidu</h1>
     </div>
+    <div class="resume-div animated zoomIn">
+      <a id="resume-btn" target="_blank" href="https://drive.google.com/file/d/1xepoKGa9Js7pQVloLtCCBlnea6BKwdte/view?usp=sharing">Resume</a>
+    </div>
     <div class="social_links">
       <a href="https://github.com/manojnaidu619" target="_blank"><img class="animated fadeInLeft" id="github" src="/img/logos/github-home.png" alt="Github"></a>
       <a href="https://rubygems.org/profiles/manojnaidu619" target="_blank"><img id="rubygems" src="/img/logos/ruby.png" alt="Rubygems"></a>
@@ -38,6 +41,31 @@ export default {
    width:35px;
    margin-right: 30px;
  }
+ .resume-div{
+   margin: 30px auto auto auto;
+ }
+
+ #resume-btn{
+    width: 20%;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: lavenderblush;
+    border-radius: 5px;
+    border: 1px solid mediumslateblue;
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s ease;
+  }
+
+  #resume-btn:hover{
+    background-color: #f0fffa;
+  }
 
  @media screen and (max-width: 520px) {
    img{
