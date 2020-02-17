@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel = "icon" type="image/png" href="./img/icons/mj-bg-512x512.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <title>Manoj Naidu</title>
   </head>
   <body>
@@ -25,15 +26,22 @@
   html,body{
     overflow: auto;
     height: 100vh;
-    background: LightCyan;
+    background: #98e6d0;
+    transition: 1s ease;
   }
-/*
-  html,body{
-    overflow: auto;
-    height: 100vh;
-    background: #bdc3c7;
-    background: -webkit-linear-gradient(-45deg, #70e1f5, #ffd194);
-    background: linear-gradient(-45deg, #70e1f5, #ffd194);
-  }
-*/
+
 </style>
+
+<script>
+    function changeBg(){
+      var r = Math.floor((Math.random() * 254) + 150).toString();
+      var g = Math.floor((Math.random() * 254) + 150).toString();
+      var b = Math.floor((Math.random() * 254) + 150).toString();
+      
+      var code = r+","+g+","+b;
+
+      $("body").css("background-color","rgb("+code+")");
+  }
+  window.setInterval(changeBg, 3000);
+  
+</script>
