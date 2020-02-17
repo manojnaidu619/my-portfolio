@@ -46,14 +46,14 @@ export default {
  }
 
  #resume-btn{
-    width: 20%;
+    width: 40%;
     padding: 8px;
     font-size: 16px;
     font-weight: 600;
-    background-color: lavenderblush;
+    background-color: #393e46;
     border-radius: 5px;
     border: 1px solid #4c4c4c;
-    color: #4c4c4c;
+    color: floralwhite;
     text-transform: uppercase;
     letter-spacing: 2px;
     cursor: pointer;
@@ -64,7 +64,7 @@ export default {
   }
 
   #resume-btn:hover{
-    background-color: #f0fffa;
+    background-color: #393e46;
     letter-spacing: 4px;
   }
 
