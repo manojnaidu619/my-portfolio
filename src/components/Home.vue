@@ -46,7 +46,7 @@ export default {
  }
 
  #resume-btn{
-    width: 40%;
+    width: 250px;
     padding: 8px;
     font-size: 16px;
     font-weight: 600;
